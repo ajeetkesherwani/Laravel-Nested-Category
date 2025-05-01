@@ -1,6 +1,3 @@
-# Laravel-Nested-Category
-A Laravel-based application for managing nested categories using a self-referencing model.
-
 # Laravel Nested Categories
 
 This project demonstrates how to implement nested categories (parent-child structure) in Laravel.
