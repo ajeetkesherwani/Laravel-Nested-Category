@@ -9,6 +9,7 @@
 
 ## About Laravel
 
+<<<<<<< HEAD
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
@@ -59,3 +60,21 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+## Installation
+```bash
+git clone https://github.com/yourusername/laravel-nested-categories.git
+cd laravel-nested-categories
+composer install
+cp .env.example .env
+php artisan key:generate
+
+
+
+## Default Admin User
+
+After running `php artisan migrate --seed`, you can log in using:
+
+- **Email:** admin@gmail.com  
+- **Password:** 123456
+>>>>>>> 1a48ae1a3e0fe7154e0728bbef14e54daf19c700
